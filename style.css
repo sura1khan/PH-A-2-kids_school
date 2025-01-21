@@ -205,7 +205,7 @@ color: rgb(1, 172, 253);
     box-sizing: border-box;
     border: 2px solid rgb(255, 194, 80) ;
     border-radius: 20px;
-    background: linear-gradient(rgb(254, 209, 127), rgb(251, 242, 213), white);
+    background: linear-gradient(rgb(215, 167, 79), rgb(251, 242, 213), white);
 }
 .card3 {
     text-align: center;
@@ -215,6 +215,11 @@ color: rgb(1, 172, 253);
     border-radius: 20px;
     background: linear-gradient(rgb(211, 198, 255), rgb(218, 220, 252), white);
 }
+/* .card1:hover, .card2:hover, .card3:hover {
+ transition: 0.3s;
+background-color: brown; */
+ /* padding: 11px 0; */
+
 .btnc1 {
     border-radius: 12px;
     color: rgb(0, 151, 220);
