@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* nav styling  */
 #nav {
    margin: 10px auto;
@@ -15,7 +16,99 @@ nav .logo {
     display: flex;
     align-items: center;
 }
-.icon {
-    color: aquamarine;
-    background: black;
+nav .icons {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 20px;
+    cursor: pointer;
 }
+.icon1 {
+    text-decoration: none;
+    color: rgb(254, 163, 1);}
+.icon2 {
+    text-decoration: none;
+    color: rgb(1, 172, 253);}
+.icon3 {
+    text-decoration: none;
+    color: rgb(5, 212, 223);}
+.icon4 {
+    text-decoration: none;
+    color: rgb(93, 88, 239);}
+.btn {
+    color:white ;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    background: rgb(254, 163, 1);
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {
+   color: brown;
+    
+}
+.btn:hover {
+  padding: 9px 21px;
+  background: rgb(228, 145, 0)
+}
+.toggle {
+    display: none;
+}
+hr {
+    display: none;
+}
+@media (max-width: 768px) {
+    nav {
+        /* background-color: red; */
+        margin: 10px auto;
+        /* border-bottom: 1px solid rgb(254, 163, 1);
+        bord */
+    }
+    hr {
+        display: flex;
+        border: none;
+        height: 1.5px;
+        background-color:rgb(254, 163, 1);
+      
+    }
+    .logo h1 {
+        display: none;
+    }
+    .logo img {
+        width: 60%;
+        height: 60%;
+    }
+    .icon1  {
+        display: none; 
+    }
+    .icon2  {
+        display: none; 
+    }
+    .icon3  {
+        display: none; 
+    }
+    .icon4  {
+        display: none; 
+    }
+    .btn {
+        display: none;
+    }
+    .toggle {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        height: 20%;
+       cursor: pointer;
+       position: static;
+    }
+    .toggle:hover {
+        padding: 5px 0px;
+       
+        }
+    
+
+}
+
+
