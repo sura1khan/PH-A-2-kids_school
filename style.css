@@ -1,0 +1,21 @@
+/* nav styling  */
+#nav {
+   margin: 10px auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 30%;
+    height: 30%;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    color: aquamarine;
+    background: black;
+}
