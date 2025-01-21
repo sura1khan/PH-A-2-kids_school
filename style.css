@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-/* nav styling  */
+body {
+    font-family: Quicksand;
+}
+/* NAV STYLING  */
 #nav {
    margin: 10px auto;
 }
@@ -23,6 +26,7 @@ nav .icons {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     gap: 20px;
     cursor: pointer;
+    font-family: Quicksand;
 }
 .icon1 {
     text-decoration: none;
@@ -101,14 +105,66 @@ hr {
         width: 10%;
         height: 20%;
        cursor: pointer;
-       position: static;
     }
     .toggle:hover {
         padding: 5px 0px;
-       
-        }
-    
-
+        }}
+        /*  nav styling end */
+        /* BANNER STYLING  */
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
 }
+.banner .title {
+    background-color: white;
+    /* font-family: Quicksand; */
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+/* letter-spacing: 0%; */
+/* text-align: left; */
+}
+.e {
+   color: rgb(254, 163, 1);
+}
+.tv {
+color: rgb(1, 172, 253);
+}
+.banner .desc {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.btn2 {
+    border-radius: 12px;
+    color:white ;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgb(17, 17, 17);
+}
+.btn2:hover {
+    padding: 11px 21px;
+    background: rgb(49, 46, 46);
+  }
+@media (max-width: 768px) {
+    .banner{
+        display:flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner .title {
+        text-align: center;
+    }
+    .btn2 {
+        margin: 10px 0;
+    }
+}
+        /* banner styling end  */
 
 
