@@ -417,7 +417,7 @@ position: static;
         /* OUR STORIES END  */
         /* FOOTER STYLING */
 .footer {
-    background-color: rgb(1, 172, 253);
+    background-color: orangered;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
@@ -443,7 +443,6 @@ gap: 10px;
   
 }
 .footer-logo > img {
-    background-color: aliceblue;
     width: 25%;
     height: 25%;
     border-radius: 30%;
@@ -486,8 +485,11 @@ line-height: 20px;
 }            
 
 .marquee3 {
-    font-size: 20px;
-    color: rgb(147, 46, 181);
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(159, 155, 155);
+    padding: 15px 0px ;
+    font-style: italic;
 }
 .marquee4 {
     height:90px;
@@ -495,12 +497,13 @@ line-height: 20px;
      text-align: center;
 }      
 .marquee-5-6 {
-    background-color: rgb(1, 172, 253) ;
+    background-color: orangered;
     color: white;
     font-size:30px ;
     font-weight: 500;
     border-top: 2px white dashed;
     padding-bottom: 20px;
     margin-bottom: 3px;
+    font-style: italic;
 }
         /* MARQUEE STYLING  */
