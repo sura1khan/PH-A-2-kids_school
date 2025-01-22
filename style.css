@@ -8,7 +8,7 @@ body {
 /* NAV STYLING  */
 #nav {
    margin: 10px auto;
-   padding: 0 20px;
+ 
   
 }
 .nav {
@@ -19,6 +19,7 @@ body {
 nav img {
     width: 30%;
     height: 30%;
+    padding-left: 20px;
 }
 nav .logo {
     display: flex;
@@ -64,6 +65,7 @@ nav .icons {
 }
 .toggle {
     display: none;
+
 }
 hr {
     display: none;
@@ -110,10 +112,12 @@ hr {
         width: 10%;
         height: 20%;
        cursor: pointer;
+       padding-right: 15px;
     }
     .toggle:hover {
         padding: 5px 0px;
-        }}
+        }
+    }
         /*  nav styling end */
         /* BANNER STYLING  */
 .banner {
