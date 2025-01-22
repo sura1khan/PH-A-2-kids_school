@@ -386,6 +386,17 @@ position: static;
   margin: 30px ;
   text-align: center;
 }
+@media (max-width: 768px) {
+.story-1 {
+    display: none;
+}
+.story {
+    /* display: block; */
+    /* display: flexbox; */
+    width: 100%;
+    margin: 0 20px;
+}
+}
 
         /* OUR STORIES END  */
 
