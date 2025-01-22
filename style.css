@@ -499,6 +499,8 @@ line-height: 20px;
     color: white;
     font-size:30px ;
     font-weight: 500;
-    border-bottom: 2px white dashed;
+    border-top: 2px white dashed;
+    padding-bottom: 20px;
+    margin-bottom: 3px;
 }
         /* MARQUEE STYLING  */
