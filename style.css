@@ -180,7 +180,6 @@ color: rgb(1, 172, 253);
     text-align: center;
 }
 .cards {
-    /* background-color: red; */
     display: flex; 
     justify-content: space-around;
     gap: 10px;
@@ -205,7 +204,7 @@ color: rgb(1, 172, 253);
     box-sizing: border-box;
     border: 2px solid rgb(255, 194, 80) ;
     border-radius: 20px;
-    background: linear-gradient(rgb(215, 167, 79), rgb(251, 242, 213), white);
+    background: linear-gradient(rgb(255, 230, 185), rgb(255, 254, 249), white);
 }
 .card3 {
     text-align: center;
@@ -213,12 +212,8 @@ color: rgb(1, 172, 253);
     box-sizing: border-box;
     border: 2px solid rgb(213, 168, 255);
     border-radius: 20px;
-    background: linear-gradient(rgb(211, 198, 255), rgb(218, 220, 252), white);
+    background: linear-gradient(rgb(226, 219, 255), rgb(248, 248, 255), white);
 }
-/* .card1:hover, .card2:hover, .card3:hover {
- transition: 0.3s;
-background-color: brown; */
- /* padding: 11px 0; */
 
 .btnc1 {
     border-radius: 12px;
@@ -253,5 +248,50 @@ background-color: brown; */
     color:rgb(74, 74, 74);
     font-weight: bold;
 }
+.arrow-btn {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.symbol-btn {
+    margin: 20px 0;
+   
+    background-color:orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition:  0.3s ease;
+  }
+  .symbol-btn:hover {
+    background-color: orangered;
+  }
+  @media (max-width: 768px) {
+    .cards{
+        display: inline;
+        align-items: center;
+        gap: 25px;
+        /* margin: 0 50px; */
+
+    }
+    .card1 {
+        margin: 20px auto;
+        width: 80%;
+        justify-content: center;
+    }
+    .card2 {
+        margin: 20px auto;
+        width: 80%;
+        justify-content: center;
+    }
+    .card3 {
+        margin: 20px auto;
+        width: 80%;
+        justify-content: center;
+    }
+
+  }
         /* standard curriculam styling end  */
 
