@@ -303,7 +303,7 @@ color: rgb(1, 172, 253);
     padding: 0 20px;
 }
 .story-heading {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     text-align: center;
 }
@@ -401,6 +401,7 @@ position: static;
 .btnS {
   margin: 30px 0 0 0 ;
   text-align: center;
+ 
 }
 @media (max-width: 768px) {
 .story-1 {
@@ -420,7 +421,6 @@ position: static;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
-    /* align-items: center; */
     padding: 20px 30px;
     color: white;
    
@@ -473,4 +473,32 @@ line-height: 20px;
     }
 }
         /* FOTTER STYLING END  */
+        /* MARQUEE STYLING  */
+ .marquee1 {
+    font-size:30px ;
+    font-weight: 600;
+    color: orangered;
+        }            
+.marquee2 {
+    font-size:30px ;
+    font-weight: 600;
+    color: rgb(83, 83, 248);
+}            
 
+.marquee3 {
+    font-size: 20px;
+    color: rgb(147, 46, 181);
+}
+.marquee4 {
+    height:90px;
+     width: 100%;
+     text-align: center;
+}      
+.marquee-5-6 {
+    background-color: rgb(1, 172, 253) ;
+    color: white;
+    font-size:30px ;
+    font-weight: 500;
+    border-bottom: 2px white dashed;
+}
+        /* MARQUEE STYLING  */
