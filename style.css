@@ -255,11 +255,10 @@ color: rgb(1, 172, 253);
 }
 .symbol-btn {
     margin: 20px 0;
-   
     background-color:orange;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 20px;
     cursor: pointer;
     border-radius: 50px;
@@ -294,4 +293,99 @@ color: rgb(1, 172, 253);
 
   }
         /* standard curriculam styling end  */
+        /* OUR STORIES  */
+.our-stories {
+    background: url(images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    margin: 10px auto;
+}
+.story-heading {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.stories {
+    display: flex;
+    gap:20px ;
+}
+.story{
+    display: grid;
+    width: 55%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.story-1 {
+    width: 40%;
+    background-color: white;
+    border-radius: 30px;
+    /* display: block; */
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+}
+.story-btn {
+    margin: -15px 0 0 0 ; 
+    background-color: rgb(60, 216, 232);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 15px;
+    width: 40%;
+    height: 6%;
+    margin-left: 25px;
+    position: static;
+}
+.story-1 >img {
+    width: 100%;
+}
+.story-title {
+ margin: 20px 0px 0px 10px;
+font-size: 20px;
+line-height: 25px;
+position: static;
+}
+.story-0 {
+    background: white;
+    width:90%;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin: 8px 0;
+}
+.story-0 > img {
+    width: 100%;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+}
+
+.story-0 > h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.story-btn-0 {
+    margin: -15px 0px 0px 60px;
+    display: block;
+    background-color:rgb(239, 159, 11) ;
+    color: white;
+    border: none;
+    font-size: 14px; 
+   font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    width: 40%;
+    height: 8%;
+    position: relative;
+}
+.btnS {
+  margin: 30px ;
+  text-align: center;
+}
+
+        /* OUR STORIES END  */
 
