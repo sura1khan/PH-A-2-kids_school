@@ -316,12 +316,10 @@ color: rgb(1, 172, 253);
     width: 40%;
     background-color: white;
     border-radius: 30px;
-    /* display: block; */
     margin: 0 auto;
     overflow: hidden;
     display: flex;
     flex-direction: column; 
-    /* align-items: center; */
 }
 .story-btn {
     margin: -15px 0 0 0 ; 
@@ -375,7 +373,7 @@ position: static;
     color: white;
     border: none;
     font-size: 14px; 
-   font-weight: bold;
+    font-weight: bold;
     font-style: italic;
     border-radius: 10px;
     width: 40%;
@@ -383,7 +381,7 @@ position: static;
     position: relative;
 }
 .btnS {
-  margin: 30px ;
+  margin: 30px 0 0 0 ;
   text-align: center;
 }
 @media (max-width: 768px) {
@@ -397,6 +395,54 @@ position: static;
     margin: 0 20px;
 }
 }
-
         /* OUR STORIES END  */
+        /* FOOTER STYLING */
+.footer {
+    background-color: rgb(1, 172, 253);
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 20px 30px;
+    color: white;
+   
+}
+.footer-1 {
+    /* display: flex; */
+    /* width: 10%; */
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.footer-logo {
+display: flex;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+overflow: hidden;
+align-items: center;
+gap: 10px;
+  
+}
+.footer-logo > img {
+    background-color: aliceblue;
+    width: 25%;
+    height: 25%;
+    border-radius: 30%;
+}
+.footer-desc {
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+
+}
+.footer-menu {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+        /* FOTTER STYLING END  */
 
